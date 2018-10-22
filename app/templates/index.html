@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')|autoversion }}" type="text/css" media="screen" charset="utf-8">
+    </head>
+    <div id="projs">
+        <div id="intro">
+            <p>Invention arises directly from ldleness and from laziness. <b>-- Agatha Christie</b></p>
+            <p>For most people, computer programming is not easy and so is the final year project for computer science students.</p>
+            <p>Luckily, we are here to help.</p>
+            <p>In short! <b>We code your final year project for you</b> while you eat and sleep!</p>
+            <p>What could be better. All you have to do is pay a small amount (we too we dey hung).</p>
+            <p>Please read the <a href="faq">FAQ</a> to see how it works.</p>
+        </div>
+        <div class="proj">
+            <div class="image">
+                <img src="../static/images/stag.jpeg">
+            </div>
+            <div class="info">
+                <h3>Steganography</h3>
+                <p>Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. The word steganography combines the Greek words steganos, meaning "covered, concealed, or protected", and graphein meaning "writing"</p>
+            </div>
+        </div>
+        <div class="proj">
+            <div class="image">
+                <img src="../static/images/sentiment.jpg">
+            </div>
+            <div class="info">
+                    <h3>Sentiment Analysis</h3>
+                    <p>the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral.</p>
+            </div>
+        </div>
+        <div class="proj">
+            <div class="image">
+                <img src="../static/images/maproute.jpg">
+            </div>
+            <div class="info">
+                    <h3>Map Routing</h3>
+                    <p>A route map is a topological map in the form of a schematic diagram used to illustrate the routes and stations within a public transport system—whether this be bus lines, railway or ferry routes. The main components are color coded lines to indicate each line or service, with named icons to indicate stations or stops</p>
+            </div>
+        </div>
+        <div class="proj">
+                <div class="image">
+                    <img src="../static/images/hand_rec.jpeg">
+                </div>
+                <div class="info">
+                        <h3>Handwriting Recognition</h3>
+                        <p>Handwriting recognition is the ability of a computer to receive and interpret intelligible handwritten input from sources such as paper documents, photographs, touch-screens and other devices.</p>
+                </div>
+            </div>
+            <div class="proj">
+                <div class="image">
+                    <img src="../static/images/gesture.jpg">
+                </div>
+                <div class="info">
+                        <h3>Gesture Recognition</h3>
+                        <p>Gesture recognition is a type of perceptual computing user interface that allows computers to capture and interpret human gestures as commands. The general definition of gesture recognition is the ability of a computer to understand gestures and execute commands based on those gestures.</p>
+                </div>
+            </div>
+    </div>
+    <div style="clear:both;"></div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')|autoversion }}" type="text/css" media="screen" charset="utf-8">
+    </head>
+    <div id="devs">
+        <div class="dev">
+            <h2>De Don</h2>
+            <p>WebApps & Android Apps</p>
+            <p>Email : asiamahemma95@gmail.com</p>
+        </div>
+        <div class="dev">
+            <h2>Ave</h2>
+            <p>Desktop Apps, Cross-Platform Mobile Apps( Android and Iphone) & Machine Learning</p>
+            <p>Email : banabasaveabadu@gmail.com</p>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+{% endblock %}

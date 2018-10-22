@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')|autoversion }}" type="text/css" media="screen" charset="utf-8">
+    </head>
+    <div id="faqs">
+        <div class="faq">
+            <h2>1</h2>
+            <p>This site connects you to capable computer programers who are specialist in certain areas of computer programming to design and develop your project work for you.</p>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="faq">
+            <h2>2</h2>
+            <p>Users can select a project from our project list or contact us with their own project idea for development </p>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="faq">
+            <h2>3</h2>
+            <p>Projects selected from our list would bear a registration cost of (30 - 50 cedis) since they are carefully planned projects</p>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="faq">
+            <h2>4</h2>
+            <p>To select a project, send us a <a href="projects">Mail</a> with the project title as the subject of the <a href="projects">Mail</a>. you would be contacted promptly for further information</p>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="faq">
+            <h2>5</h2>
+            <p>Please Note: due to lack of adequate resources for our programers, a down payment of half the cost of the services rendered would be required to kick start the project</p>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="faq">
+            <h2>6</h2>
+            <p>The programer by default is not responsible for documenting your project. He or She can only guide you on how the project works. It could also be arranged for the programer to document your work.(it might cost you extra)</p>
+        </div>
+        <div style="clear:both;"></div>
+        
+
+
+        <div style="clear:both;"></div>
+    </div>
+{% endblock %}
